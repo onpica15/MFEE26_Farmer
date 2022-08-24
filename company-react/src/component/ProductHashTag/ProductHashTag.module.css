@@ -1,0 +1,26 @@
+.hashTag {
+  display: inline-block;
+  height: 30px;
+  border: 1px solid #3a2c2c;
+  border-radius: 15px;
+  margin: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hashTagH {
+  font-size: 16px;
+  padding: 0 15px;
+  font-weight: bold;
+  color: #3a2c2c;
+  margin: 0;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #3a2c2c;
+}

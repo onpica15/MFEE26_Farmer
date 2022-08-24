@@ -1,0 +1,30 @@
+.bove-bodybg{
+  background-color: rgba(0, 0, 0, .7);
+  background-blend-mode: multiply;
+  background-image: url(/public/member_imgs/vegetables_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bover-bodyvh{
+  height: 100vh
+}
+.bover-buttonColor{
+  background-color: #82CA35;
+}
+.bover-buttonColor:hover{
+  background-color: #466B1F;
+  transition: linear 0.2s;
+}
+.bover-iconSize{
+  width: 60px;
+  height: 60px;
+}
+.bover-svgColor{
+  color:#82CA35;
+}
+@media screen and (max-width:576px){
+  .bover-bodyvh{
+    height: 110vh
+  }
+}

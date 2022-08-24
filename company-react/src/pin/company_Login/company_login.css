@@ -1,0 +1,36 @@
+.mybody{
+	color:black;
+	background: url(/public/images/webpage.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	height: calc(100vh - 77px);
+}
+.ytbtncolor1 {
+	border: 0px solid
+	}
+.ytbtncolor2 {
+	background-color: rgba(130, 129, 129, 0.235);
+	border: 0px solid rgba(130, 129, 129, 0.235);
+}
+
+.btncolor {
+	background-color: rgba(88, 135, 195, 1);
+	border: 0px solid rgba(88, 135, 195, 1);
+}
+.cnbnt{
+	background-color: rgb(255, 255, 255);
+	border: 0px solid;
+	padding-top: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.pin-btnlogon{
+	border: 0px ;
+	color: rgba(0, 0, 0, 0);
+}
+.pin-btnlogon:hover{
+background-color: rgba(240, 248, 255, 0);
+transition: linear 0.2s;
+}

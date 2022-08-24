@@ -1,0 +1,179 @@
+
+.hsiehsearching {
+    background-image:url("/public/images/spaghetti.jpg") ;
+    width: 100%;
+    background-size:cover;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.iconmanagementinsearch{
+    display: flex;
+    align-items: center; 
+}
+
+.popuptosearch{
+    z-index: 100;
+}
+
+.titlewordinsearch{
+    width: 85%;
+    margin: 0 8%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.subtitlewordinsearch{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    /* -webkit-text-stroke: 0.1px rgb(4, 0, 255); */
+}
+
+.searchinput {
+    font-size: 28px;
+}
+
+.recipeinfoinsearch{
+    width: 80%;
+    margin-left: 15%;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.recommendlistinsearch {
+    width: 40%;
+    margin: 30px 0px 30px 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    /* outline: 1px solid black; */
+}
+
+.recipephotoinsearch {
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.recipephotoinsearch img {
+    max-width: 100%;
+    transition: 0.35s;
+}
+
+.recipephotoinsearch:hover img {
+    transform: scale(1.1, 1.1);
+    opacity: 0.8;
+}
+
+.recipeblockinsearch {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left:10px ;
+    margin-bottom: 30px;
+}
+
+.iconinsearch {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.iconinsearchp{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0px 5px 0px 0px;
+}
+
+.hrlineinsearch {
+    margin: 10px 0;
+}
+
+.buttoninsearch{
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.paginationinsearch {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.linkinrecipesearch{
+    font-size: 22px;
+    color: black;
+    text-decoration:none;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .searchinput {
+        font-size: 20px;
+    }
+
+    .recipeinfoinsearch{
+        margin-left: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .titlewordinsearch{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .subtitlewordinsearch{
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        /* -webkit-text-stroke: 0.1px rgb(4, 0, 255); */
+    }
+
+    .recommendlistinsearch {
+        width: 80%;
+        margin: 20px 0px 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+    .recipephotoinsearch {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .recipephotoinsearch img {
+        max-width: 100%;
+        transition: 0.35s;
+    }
+
+    .recipeblockinsearch {
+        font-size: 20px;
+        line-height: 30px;
+        margin-left:5px ;
+    }
+
+    .iconinsearch {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+}
+
+
+/* https://hff2.github.io/react/20211015/3955701539/ */
+/* https://www.websiterating.com/zh-TW/resources/html-css-php-cheat-sheet/#complete-css-cheat-sheet */

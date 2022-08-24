@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+}
+.selectedFoodImg{
+    z-index: 999;
+}
+
+.xin-nav-link {
+    background-color: #3a2c2c;
+    padding: 0.5rem 0.25rem;
+    color: white;
+}
+
+.xin-sideMenu {
+    z-index: 1;
+}
+.xin-nav-item {
+    background-color: #3a2c2c;
+}
+.xin-nav-item.active {
+    background-color: #fff;
+    color: #3a2c2c;
+}
+
+.xin-nav-item .xin-nav-link.active {
+    background-color: #fff;
+    color: #3a2c2c;
+    border-radius: 0;
+    border: 1px solid #3a2c2c;
+}
+
+.xin-sub-title {
+    border-bottom: 2px solid #000;
+}
+
+.sub-title-border {
+    border-bottom: 2px solid #000;
+}
+
+.xin-nav-item:hover {
+    background-color: #fff;
+    /* border-bottom: 1px solid #3a2c2c; */
+}
+.xin-nav-item:hover .xin-nav-link {
+    color: #3a2c2c;
+    border-bottom: 1px solid #3a2c2c;
+    border-radius: 0;
+}
+.xin-font-primary-color {
+    color: #3a2c2c;
+}
+
+.pho-bg {
+    position: relative;
+}
+.lunchbox_stock {
+    width: 50px;
+}
+
+.xin-food-area {
+    background-color: #fff;
+    border-right: 1px solid #000;
+}
+.xin-rightArrow {
+    display: none;
+    position: absolute;
+    right: -35px;
+    top: 35vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(243, 178, 178,0.4);
+    border: 2px solid rgb(254, 254, 254);
+    border-radius: 10px;
+    height: 51px;
+    width: 54px;
+}
+
+.xin-rightArrow span {
+    display: block;
+    margin-top: 2px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 4px;
+    width: 30px;
+    transition: 0.2s;
+}
+
+.xin-rightArrow:hover span {
+    margin: auto;
+}
+
+.xin-rightArrow-in:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(-3px, 8px) rotate(30deg);
+}
+.xin-rightArrow-in:hover span:nth-child(2) {
+    display: none;
+}
+.xin-rightArrow-in:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(-3px, -8px) rotate(-30deg);
+}
+
+.xin-rightArrow-out:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(0px, 8px) rotate(-30deg);
+}
+.xin-rightArrow-out:hover span:nth-child(2) {
+    display: none;
+}
+.xin-rightArrow-out:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(0px, -8px) rotate(30deg);
+}
+.xin-leftArrow {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 35vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(13, 220, 92,0.4);
+    border: 2px solid rgb(254, 254, 254);
+    /* padding: 20px; */
+    border-radius: 10px;
+    height: 51px;
+    width: 54px;
+}
+
+.xin-leftArrow span {
+    display: block;
+    margin-top: 2px;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 4px;
+    width: 30px;
+    transition: 0.2s;
+}
+
+.xin-leftArrow:hover span {
+    margin: auto;
+}
+
+.xin-leftArrow-in:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(-3px, 8px) rotate(-30deg);
+}
+.xin-leftArrow-in:hover span:nth-child(2) {
+    display: none;
+}
+.xin-leftArrow-in:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(-3px, -8px) rotate(30deg);
+}
+
+.xin-leftArrow-out:hover span:nth-child(1) {
+    width: 25px;
+    transform: translate(0px, 8px) rotate(30deg);
+}
+.xin-leftArrow-out:hover span:nth-child(2) {
+    display: none;
+}
+.xin-leftArrow-out:hover span:nth-child(3) {
+    width: 25px;
+    transform: translate(0px, -8px) rotate(-30deg);
+}
+
+.card .xin-card-img-top {
+    width: 65%;
+    height: 6.5rem;
+    object-fit: cover;
+    flex-grow: 1;
+}
+.card .xin-card-img-top.need-obj-contain {
+    object-fit: contain;
+}
+
+.xin-card-body {
+    padding: 0;
+}
+
+.selectedFoodArea {
+    position: relative;
+    background-color: #fff;
+    border-left: 1px solid#000;
+}
+.deletAllArea {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.selectedDetil {
+    width: 65%;
+    height: 5rem;
+    object-fit: contain;
+
+}
+.need-obj-cover {
+    object-fit: cover;
+}
+
+.fa-trash {
+    cursor: pointer;
+}
+.fa-trash:hover {
+    color: red;
+}
+
+.foodCard {
+    cursor: pointer;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 400ms;
+}
+
+
+
+.foodCard:hover{
+    transform: scale(1.1, 1.1);
+    border: 1px;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 400ms;
+    transform: scale(1, 1) translate3d(0, 0, 0);
+    box-shadow: 0 1px 6px 3px rgba(194, 188, 188, 0.64);
+} 
+.canvasFood {
+    margin-top: -100px;
+    margin-left: -100px;
+    pointer-events: none;
+}
+/* .myCanvas {
+  position: absolute;
+} */
+.canvasBtns .price-btn {
+    background-color: #3A2C2C;
+    border: 1px solid #3A2C2C;
+    cursor: default;
+    padding: 0 30px;
+    font-size: 20px;
+}
+.pay-btn {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #82CA35;
+    border: 1px solid #82CA35;
+}
+
+.xinCanvasTitle {
+    font-size: 35px;
+    font-weight: 900;
+}
+.lunchbox_stock {
+    padding: 0;
+    padding-left: 10px;
+}
+.canvasTextArea {
+    width: 450px;
+    height: 75px;
+
+    padding-top: 15px;
+}
+.canvasTextArea:focus {
+    box-shadow: none;
+    border-color: #82ca35;
+}
+.canvaslabelTitle {
+    position: relative;
+}
+.canvaslabel {
+    position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 10px;
+}
+.lunch-name-input:focus {
+    border-color: #82ca35;
+    box-shadow: none;
+}
+
+.lunchbox_stock:focus {
+    border-color: #82ca35;
+    box-shadow: none;
+}
+
+.xin-canvas-topay {
+    margin-top: -50px;
+    z-index: 999;
+}
+.xin-border {
+    border-bottom: 2px solid #000;
+}
+.xin-border-1 {
+    border-bottom: 1px solid #000;
+}
+.lunch-name-input {
+    width: 150px;
+}
+
+.man {
+    border-radius: 50%;
+    /* border: 1px solid #000; */
+}
+
+.xin-remove-all-btn{
+        padding: 10px 5px;
+     }
+.xin-btn-danger{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+        background-color: #FA4747;
+}  
+/* .hiddenSelectedFoodSideBar{
+    height: 85vh;
+}   */
+@media screen and (max-width: 992px) {
+    .xin-btn-danger{
+        padding: 5px 15px;
+    }
+    .main{
+        min-height: 0;
+    }
+    .lunch-name-input {
+    width: 200px;
+}
+    .deletAllArea{
+        bottom: 25px;
+    }
+
+    .xin-food-area {
+        border: none;
+    }
+    .xin-rightArrow {
+        position: absolute;
+        display: block;
+    }
+    .xin-leftArrow {
+        position: absolute;
+        left: -30px;
+        display: block;
+    }
+    .selectedFoodSideMenuNX {
+        position: relative;
+    }
+    .sideMenuNX {
+        position: relative;
+    }
+    .xin-nav-link {
+        padding: 0rem;
+        margin: 0;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .hiddenSideBar {
+        position: absolute;
+        width: 1rem;
+        height: 100vh;
+        transition: all 0.2s;
+    }
+
+    .showSideBar {
+        position: absolute;
+        height: 85vh;
+        width: 65%;
+        border-right: 1px solid #000;
+    }
+
+    .showSelectedFoodSideBar {
+        position: absolute;
+        right: 0;
+        height: 85vh;
+        width: 65%;
+        z-index: 1000;
+    }
+
+    .card .xin-card-img-top {
+        width: 70%;
+        height: 3.5rem;
+        object-fit: cover;
+        flex-grow: 1;
+    }
+
+    .selectedDetil {
+        width: 80%;
+        height: 3.5rem;
+    }
+    .canvasFood {
+        margin-top: -30px;
+        margin-left: -30px;
+        width: 70%;
+    }
+
+    .selectedFoodArea {
+        border-left: 1px solid #000;
+    }
+    .hiddenSelectedFoodSideBar {
+        position: absolute;
+        width: 1rem;
+        right: 8px;
+        height: 100vh;
+        transition: all 0.2s;
+        border: none;
+    }
+
+    .canvasTextArea {
+        width: 250px;
+    }
+    .xin-canvas-topay {
+        margin-top: -20px;
+        z-index: 999;
+    }
+    .xin-border {
+        border-bottom: none;
+    }
+    .xin-border-1 {
+        border-bottom: none;
+    }
+    .xin-sideMenu {
+        z-index: 1000;
+    }
+}

@@ -1,0 +1,32 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+}
+
+.react_icons path {
+    stroke: currentColor;
+}
+
+.slick-arrow:after,
+.slick-arrow:before {
+    color: #3a2c2c !important;
+}
+
+.ReactModal__Overlay{
+    z-index: 10;
+}
+
+/* .swal2-styled.swal2-confirm{
+    
+    background-color:#82CA35;
+    margin:0
+  }
+  
+.swal2-styled.swal2-confirm:focus{
+    box-shadow: 0 0 0 3px #82ca357f;
+  }  */

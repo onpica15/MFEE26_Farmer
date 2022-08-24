@@ -1,0 +1,33 @@
+.search {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #b3b3b3;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 13px;
+  position: relative;
+  padding-left: 20px;
+  cursor: text;
+  margin-bottom: 20px;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.icon svg {
+  color: #82ca35;
+}
+
+.search > input {
+  width: calc(100% - 40px);
+  border: none;
+  background-color: inherit;
+}
+
+.search > input:focus-visible {
+  outline: none;
+}

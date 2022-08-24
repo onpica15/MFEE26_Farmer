@@ -1,0 +1,14 @@
+.pickTime{
+    height: 380px;
+    width:100%
+    
+}
+.pickTime > input{
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+
+.input:checked{
+ background-color: #ff366f  !important;
+}

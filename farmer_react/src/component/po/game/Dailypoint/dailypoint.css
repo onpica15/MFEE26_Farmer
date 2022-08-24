@@ -1,0 +1,46 @@
+.bggforblue{
+    background-image: url(/public/images/dailypoint-img/ed648e3d23accf40422277d8447529a5.jpg);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+
+.bgg{
+    background-image: url(/public/images/dailypoint-img/BG.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 800px;
+}
+/* .dailypointstext{
+    background-color: #D6D6D6;
+} */
+.egg{
+    width: 100px;
+    height: 100px;
+}
+.egg:hover{
+    /* width: 110px; */
+    /* height: 110px; */
+    transform:translate(0px, -10px) scale(1);
+}
+.eggyellow{
+    width: 150px;
+    height: 150px;
+}
+
+.objfit {
+    object-fit: contain;
+}
+.cut img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    }
+.eggbox{
+    width: 500px;
+}
+.coupon:hover{
+    transform:translate(-30px, -10px) scale(1);
+    /* transition: width 2s, height 4s; */
+}
+

@@ -1,0 +1,128 @@
+
+
+.searchinpopup {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchinpopup-inner{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  background-color: #fff;
+}
+
+.searchinpopup-inner .close-btn{
+  position: absolute;
+  border:0;
+  top:35px;
+  right: 35px;
+  /* font-size: 24px; */
+  background-color: #fff;
+}
+
+.recipetitleinpopup {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.forminpopup {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.time {
+  width: 50%;
+  height: 50px;
+}
+
+.forminpopup img {
+  height: 30px;
+  width: 30px;
+}
+
+.buttoninpopup {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.searchbuttoninpopup {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(130, 202, 53);
+  border-radius: 10px;
+  border:0 ;
+  font-size: 24px;
+  color: white;
+}
+
+.searchbyingredient {
+  width: 80%;
+  margin:0 auto 50px auto;
+}
+/* 食材搜尋區域 */
+
+.ingredientinpopup {
+  width: 30%;
+  height: 60px;
+  margin:10px;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.ingredientinpopup img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width:756px) {
+    .recipetitleinpopup {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+    .searchbyingredient {
+    width: 70%;
+    height: auto;
+    margin: 0 15% 50px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    }
+
+    .time {
+      width: 75%;
+      height: 36px;
+    }
+
+    .ingredientinpopup {
+        width: 90%;
+        height: 40px;
+    }
+
+    .ingredientinpopup img {
+      height: 25px;
+      width: 25px;
+      margin-right: 10px;
+    }
+
+}
+

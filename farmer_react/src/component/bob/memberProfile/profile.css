@@ -1,0 +1,34 @@
+.bop-w150{
+    width: 150px;
+}
+.bop-h150{
+    height: 150px;
+}
+.bop-objft{
+    object-fit: cover;
+}
+.bop-camPosition{
+    top: 1.5rem
+}
+.bop-editPosition{
+    top: 1rem;
+    right: 1.2rem;
+}
+.bop-objft{
+    object-fit: cover;
+}
+.bop-lineheight{
+    line-height: 1.1rem;
+}
+.bop-multiline-ellipsis { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.bop-buttonColor{
+    background-color: #1e1e1e;
+  }
+.bop-buttonColor:hover{
+    background-color: #82CA35;
+  }

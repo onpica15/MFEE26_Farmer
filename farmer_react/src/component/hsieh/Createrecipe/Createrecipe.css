@@ -1,0 +1,328 @@
+.createrecipetitle {
+  text-align: center;
+  padding:   60px 10% 0px 10%;
+}
+
+.hrincreaterecipe{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.eachdataincreaterecipe {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  display: flex;
+}
+
+.datanameincreaterecipe {
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+
+.dataform1increate {
+  width: 400px;
+  height: 40px;
+}
+
+.dataform1ofdescribes{
+  width: 400px;
+  height: 40px;
+  line-height: 35px;
+}
+
+.stepoftextareaincreate {
+  width: 400px;
+  height: 40px;
+  line-height: 35px;
+}
+
+.breakpointtitle1 {
+  font-size: 26px;
+}
+
+.dataform2increate {
+  margin-left: 15px;
+  width: 200px;
+  height: 40px;
+}
+
+.breakpointtitle2 {
+  font-size: 26px;
+  margin-left: 15px;
+}
+
+.ingredientincreate {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.ingredientincreate1 {
+  display: none;
+  margin-bottom: 15px;
+}
+
+.stepincreate{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.stepincreate1{
+  display: none;
+  margin-bottom: 15px;
+}
+
+
+.ingredientuse {
+  width: 500px;
+  height: 40px;
+}
+
+.portionuse {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.redballincreate {
+  background-color: rgb(255, 71, 71);
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 30px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.photouploadincreate {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(177, 177, 177);
+  position: relative;
+}
+
+.buttonintextalign {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.finishincreate {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(130, 202, 53);
+  border-radius: 10px;
+  font-size: 24px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0px;
+}
+
+.photoareaincreate{
+  margin: 0 20%;
+}
+
+.buttonincreate{
+  border: 0px;
+  vertical-align: top;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.additemarea{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.plusbuttonincreate{
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.iconincreate{
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.iconincreateplus {
+  width: 40px;
+  height: 40px;
+}
+
+.shoephotoincreate {
+  max-width: 100%;
+  height: auto;
+  /* border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color); */
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-white-rgb), var(--bs-border-opacity));
+  --bs-border-width: 2px;
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 100% ;
+}
+
+.crudincreate{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.showphotoincreate{
+  max-width: 100%;
+  width: 100% ;
+  height: 100% ;
+}
+
+.autoinputincreate{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    bottom: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;    
+}
+
+.autoinputincreatebutton{
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.autoinputincreatebutton:hover{
+  color:rgb(0, 0, 0)
+}
+
+@media screen and (max-width:950px) {
+  .createrecipetitle {
+    padding:20px 10%;
+  }
+
+  .hrincreaterecipe {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  }
+
+
+  .eachdataincreaterecipe {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    display: flex;
+  }
+
+  .datanameincreaterecipe {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .dataform1increate {
+    width: 150px;
+    height: 30px;
+  }
+
+  .dataform1ofdescribes{
+    width: 150px;
+    height: 30px;
+    line-height: 20px;
+  }
+
+  .stepoftextareaincreate {
+    width: 150px;
+    height: 30px;
+  }
+
+  .breakpointtitle1 {
+    font-size: 18px;
+  }
+
+  .dataform2increate {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+  }
+
+  .breakpointtitle2 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .ingredientuse {
+    width: 250px;
+    height: 30px;
+  }
+
+  .portionuse {
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .iconincreate{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+
+  .iconincreateplus {
+    width: 30px;
+    height: 30px;
+  }
+
+  .plusincreate {
+    height: 40px;
+    width: 40px;
+    margin-left: 50%;
+  }
+
+  .redballincreate {
+    background-color: rgb(255, 71, 71);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    font-size: 18px;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .photouploadincreate {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+    background-color: rgb(177, 177, 177);
+    position: relative;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .photouploadincreate {
+    height: 300px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .photouploadincreate {
+    height: 200px;
+  }
+}
+
+
+.fgh{
+  /* display: none; */
+  display: block;
+}

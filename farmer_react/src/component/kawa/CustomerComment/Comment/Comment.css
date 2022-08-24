@@ -1,0 +1,203 @@
+/* 以下手機 */
+.starRating_btn_area {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: auto; */
+
+}
+
+.starRating_btn {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.starRating_btn:hover {
+    background-color: #82CA35;
+    /* border: 1px solid #333; */
+    color: #333;
+    color: #ffffff;
+}
+
+
+.CommentSearch_area input{
+    width: 300px;
+    border-radius: 5% 0 0 5%;
+    border: 1px solid rgb(181, 181, 181);
+    padding: 5px 0;
+    
+}
+
+.CommentSearch_area button {
+    background-color: #82CA35;
+    color: #ffffff;
+     border: 1px solid rgb(181, 181, 181);
+     width: 100px;
+     border-radius: 0 5% 5% 0;
+     letter-spacing: 5px;
+}
+
+
+
+
+.CommentTimeSearch {
+    /* width: 500px; */
+    /* border:  1px solid red; */
+    align-items: center;
+}
+
+/* 熱門關鍵字 */
+/* ------ */
+
+.CommentHotSearch .HotSearchBtn {
+    letter-spacing: 2px;
+    border:  1px solid #333;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.CommentHotSearch .HotSearchBtn:hover {
+    letter-spacing: 2px;
+    border:  1px solid rgba(51, 51, 51, 0);
+    background-color: #333;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* ------ */
+
+.CommentTimeSearch select {
+    width: 200px;
+}
+
+.starRating_title {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/* 以下桌機 */
+@media screen and (min-width:768px) {
+
+    .starRating_btn_area {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .starRating_btn {
+        background-color: #333;
+        color: white;
+        width: 180px;
+        text-align: center;
+        border-radius: 20px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 10px;
+    }
+    
+    .starRating_btn:hover {
+        background-color: #82CA35;
+        /* border: 1px solid #333; */
+        color: #333;
+        color: #ffffff;
+    }
+    
+
+    
+    .CommentSearch_area input{
+        width: 300px;
+        border-radius: 5% 0 0 5%;
+        border: 1px solid rgb(181, 181, 181);
+        padding: 5px 0;
+    }
+    
+    .CommentSearch_area button {
+        background-color: #82CA35;
+        color: #ffffff;
+         border: 1px solid rgb(181, 181, 181);
+         width: 100px;
+         border-radius: 0 5% 5% 0;
+         letter-spacing: 5px;
+    }
+    
+    .CommentHotSearch p {
+        letter-spacing: 2px;
+        /* background-color: rgb(55, 55, 55); */
+        /* border-radius: 50% 50% 50% 50%; */
+        /* color: white; */
+    }
+    
+    
+    .CommentHotSearch {
+        margin-right: 30px;
+      }
+    }
+
+
+.Comment_Banner_imgwrap {
+    height: 400px;
+    width: 100%;
+    background-color: #AAA;
+    margin-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.Comment_Banner_imgwrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ */
+/* -------------以下YT教學------------------- */
+
+/* Message Scroll */
+/* .buttomBar {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(230, 230, 230);
+    border-top: 5px solid black;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */

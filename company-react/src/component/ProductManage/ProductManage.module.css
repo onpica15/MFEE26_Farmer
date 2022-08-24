@@ -1,0 +1,147 @@
+.container {
+  width: 75vw;
+  margin: auto;
+  background-color: transparent;
+}
+
+.row {
+  width: 80%;
+  margin: auto;
+  background-color: #fafafa;
+}
+
+.product_detail {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.col {
+  padding: 30px;
+  width: 50%;
+}
+
+.product_imgs {
+  width: 100%;
+}
+
+.product_imgs > .img_main {
+  width: 95%;
+}
+
+.product_imgs > .img_else {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.img_else > .img_2 {
+  width: 20%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.img_2 > img {
+  width: 100%;
+}
+
+.d_flex {
+  display: flex;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info_price {
+  display: flex;
+  align-items: baseline;
+}
+
+.price_on_the_market {
+  width: 90%;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.info_price > .dollar_tag {
+  color: #c92d2d;
+}
+
+.info_price > .dollar {
+  color: #c92d2d;
+  font-size: 32px;
+}
+
+.info_price > .slash {
+  font-size: 32px;
+  margin: 0 10px;
+}
+
+.storage {
+  display: flex;
+  margin-bottom: 20px;
+  color: #193252;
+}
+
+.storage > .storage_title {
+  margin-right: 10px;
+}
+
+.expired {
+  display: flex;
+  margin-bottom: 20px;
+  color: #193252;
+}
+
+.expired > .expired_title {
+  margin-right: 10px;
+}
+
+.item_info > p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.item_hashtags {
+  font-weight: bold;
+}
+
+.close {
+  width: 35px;
+  height: 35px;
+  color: #ffffff;
+  background-color: #333333;
+  font-size: 28px;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.edit {
+  width: 100px;
+  height: 35px;
+  color: #ffffff;
+  background-color: #82ca35;
+  font-size: 28px;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+}

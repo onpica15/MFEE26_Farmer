@@ -1,0 +1,40 @@
+.news_card {
+    /* width: 95%; */
+    /* max-height: 600px; */
+    background-color: #fff;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    /* box-shadow: 10px 5px 5px rgb(68, 68, 68, 0.1); */
+    margin-top: 20px;
+    height: 500px;
+}
+
+
+.news_card img {
+    width: 100%;
+}
+
+.news_card:hover {
+    opacity: 0.8;
+}
+
+.news_arrow_btn {
+    margin-left: auto;
+    width: 100px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+
+.newsBTNcolor {
+    background-color: #82CA35;
+}
+
+.newscard-text {
+    font-size: 14px;
+}
+
+.card_city {
+    font-size: 16px;
+}
+

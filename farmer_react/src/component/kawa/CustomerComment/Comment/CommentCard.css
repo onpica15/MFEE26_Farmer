@@ -1,0 +1,178 @@
+.CommentCard_section {
+    padding: 10px;
+}
+
+.CommentCard {
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px 2px 2px 2px;
+    border: 2px solid rgb(213, 225, 228);
+}
+
+.CommentCard_imgwrap {
+    background-color: rgb(101, 132, 168);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.CommentCard_imgwrap img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.CommentProductItem {
+    color: white;
+    background-color: #333;
+    word-wrap: break-word;
+    padding: 10px 0px 10px 10px;
+    /* max-width: 400px; */
+}
+
+
+
+.likes_area {
+    /* background-color: rgb(127, 80, 80); */
+    /* width: 100px; */
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.likes_icons {
+    margin-right: 10px;
+}
+
+.likes_icons, .likes_number {
+    color: rgb(36, 36, 36);
+}
+
+.CommentCardAccount_and_Time {
+    /* margin-top: 50px; */
+    display: flex;
+   
+}
+
+.star_and_likes {
+    /* flex-direction: column; */
+   
+}
+
+.CommentCard_right {
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 20px 10px 0px; */
+}
+
+.CommentCard_imgwrap {
+    align-items: flex-end;
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+
+
+
+/* 以下桌機 */
+@media screen and (min-width:768px) {
+
+    .CommentCard_section {
+        padding: 10px;
+    }
+    
+    .CommentCard {
+        background-color: rgb(255, 255, 255);
+        border-radius: 2px 2px 2px 2px;
+        /* margin: 10px; */
+        border: 2px solid rgb(213, 225, 228);
+        height: 200px;
+        /* padding: 10px; */
+    }
+    
+    .CommentCard_imgwrap {
+        background-color: rgb(101, 132, 168);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 50px;
+        padding: 0;
+    }
+    
+    .CommentCard_imgwrap img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .CommentProductItem {
+        color: white;
+        background-color: #333;
+        word-wrap: break-word;
+        padding: 10px 0px 10px 10px;
+        /* max-width: 400px; */
+    }
+    
+    
+    .likes_area {
+        /* background-color: rgb(127, 80, 80); */
+        /* width: 100px; */
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+
+    /* 按讚顏色 &　數字 */
+    .likes_icons, .likes_number {
+        color: #333;
+        margin-right: 10px;
+    }
+
+    /* 按讚顏色 &　數字 (點擊後顏色) */
+       .likes_icons_isliked, .likes_number_isliked {
+        color: rgb(207, 82, 82);
+        margin-right: 10px;
+    }
+    
+    .CommentCardAccount_and_Time {
+        /* margin-top: 50px; */
+        display: flex;
+    }
+    
+    .star_and_likes {
+        /* flex-direction: column; */
+        flex-grow: 1;
+    }
+    
+    .CommentCard_right {
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px 20px 10px 0px; */
+        margin-top: 8px;
+    }
+    
+    .CommentCard_imgwrap {
+        align-items: flex-end;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .CommentContext {
+        background-color: #fff;
+    }
+
+    .CommentCard_right p {
+        font-size: 18px;
+    }
+
+
+}

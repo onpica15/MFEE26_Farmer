@@ -1,0 +1,23 @@
+.bosi-bodybg{
+  background-color: rgba(0, 0, 0, .7);
+  background-blend-mode: multiply;
+  background-image: url(/public/member_imgs/vegetables_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bosi-bodyvh{
+  height: 100vh
+}
+.bosi-buttonColor{
+  background-color: #82CA35;
+}
+.bosi-buttonColor:hover{
+  background-color: #466B1F;
+  transition: linear 0.2s;
+}
+@media screen and (max-width:576px){
+  .bosi-bodyvh{
+    height: 110vh
+  }
+}

@@ -1,0 +1,19 @@
+.boe-objft{
+    object-fit: cover;
+}
+
+.boe-multiline-ellipsis { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.boe-farmColor {
+    color: #82CA35
+}
+.boe-buttonColor{
+    background-color: #82CA35;
+}
+.boe-buttonColor:hover{
+    background-color: #466b1f;
+  }

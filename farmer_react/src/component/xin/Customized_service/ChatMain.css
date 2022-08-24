@@ -1,0 +1,99 @@
+.emojistyle {
+    height: 30px;
+    width: 30px;
+}
+
+.xin-btn-nofocus:focus {
+    box-shadow: none;
+}
+.btn.btn-info.xin-btn-nofocus:focus {
+    box-shadow: none;
+    background-color: none;
+}
+.emoji-area {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+}
+.chat-input {
+    position: relative;
+}
+.xin-bg-color {
+    background-color: #82ca35;
+}
+.vh-95 {
+    height: 80vh;
+}
+
+.chat-window {
+    z-index: 100;
+    height: 100%;
+    overflow: hidden;
+}
+
+.chat-height {
+    height: calc(100% - 20vh) !important;
+}
+
+.chat-message-right,
+.chat-message-left {
+    display: flex;
+    flex-shrink: 0;
+}
+.chat-message-left {
+    margin-right: auto;
+}
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.styles_scrollable-div__prSCv {
+    max-height: calc(100% - 2px) !important;
+    overflow-y: auto;
+}
+
+.chat-input {
+    position: sticky;
+    bottom: 0;
+}
+.login-content {
+    height: 500px;
+    justify-content: center;
+}
+.border-right-info {
+    border-right: 1px #0dcaf0 solid;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.online {
+    background-color: #4cd137;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.offline {
+    background-color: #ce1515;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    height: 20px;
+    width: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.new-message-alert {
+    background-color: #3746d1;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}

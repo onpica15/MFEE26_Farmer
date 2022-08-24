@@ -1,0 +1,197 @@
+@media screen and (max-width:500px) {
+
+}
+
+
+
+/* .header_forIndex_mobile {
+    width: 36.3%;
+    height: 100px;
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    z-index: 998;
+    justify-content: space-around;
+    transition: 0.3s;
+} */
+
+
+
+.header_forIndex {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(192, 49, 49, 0);
+    position: fixed;
+    z-index: 998;
+    justify-content: space-around;
+    transition: 0.3s;
+}
+
+.header_forIndex:hover {
+    background-color: #fff;
+    box-shadow: #333333;
+   
+}
+
+.header_forIndex:hover .menu_items_forIndex {
+    color: #333333;
+}
+
+
+.header_forIndex:hover .login_icon,
+.header_forIndex:hover .cart_icon {
+    fill: #333;
+}
+.header_forIndex:hover .cart_number_forIndex {
+    color: #E5C391;
+    border-left: 1px solid #333;
+}
+
+
+.Index_nav .Index_ul .Index_li {
+    list-style-type: none;
+    color: blueviolet;
+    padding: 10px 30px;
+    /* align-items: stretch; */
+    /* align-items: center; */
+}
+
+.menu_items_forIndex {
+    width: 100%;
+    height: 80px;
+    font-size: 1em;
+    color: rgb(255, 6, 6);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.header_forIndex .navbar_toggle svg{
+    color: rgb(255, 255, 255);
+}
+.header_forIndex:hover .navbar_toggle svg{
+    color: black;
+}
+
+.nav_icons_forIndex svg {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+
+.header_forIndex:hover .nav_icons_forIndex svg {
+    color: #333;
+}
+
+
+.main_logo_forIndex {
+    width: 280px;
+    padding: 0 10px;
+    fill: rgb(255, 255, 255);
+    /* background-color: #fff; */
+}
+
+.header_forIndex:hover .main_logo_forIndex {
+    fill: #333;
+    /* background-color: #fff; */
+}
+
+.cart_number_forIndex{
+border-left: 1px solid #fff;
+color: #fff;
+}
+
+.nav_forIndex_active {
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    /* box-shadow: 8px 3px 3px rgba(74, 74, 74, 0.2); */
+
+}
+
+
+
+
+.menu_items_forIndex {
+    width: 100%;
+    height: 80px;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+
+
+.menu_items_forIndex_active {
+    color: #333;
+}
+
+
+.nav_icons_forIndex_active svg{
+    color: #333;
+}
+
+.cart_number_forIndex_active {
+    color: #E5C391;
+    border-left: 1px solid #333;
+}
+
+.loginout_btn_forIndex {
+    color:  rgb(201, 30, 30);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.header_forIndex:hover .loginout_btn_forIndex {
+    /* background-color: rgb(142, 0, 0); */
+    border-radius: 10px;
+    border: 1px solid #333;
+    color:  #333;
+}
+
+.loginout_btn_forIndex_forIndex_active {
+    /* border-radius: 20px; */
+    border: 1px solid #333;
+    color:  #333;
+}
+
+.nav_username_forIndex {
+    /* border-radius: 20px; */
+    color:  rgb(255, 255, 255);
+}
+
+.nav_username_forIndex_active {
+    /* border-radius: 20px; */
+    color:  #333;
+}
+
+.header_forIndex:hover .nav_username_forIndex {
+    /* border-radius: 20px; */
+    color:  #333;
+}
+
+.main_logo_forIndex_active {
+    fill: #333;
+    /* background-color: rgb(123, 44, 44); */
+}
+
+
+/* ------------------------- */
+.header_forIndex  .menu_items_forIndex:hover {
+    color: #333333;
+    border-bottom: 1px solid #333;
+}
+
+

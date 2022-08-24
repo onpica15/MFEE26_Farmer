@@ -1,0 +1,7 @@
+.companynabercolor{
+    color: #3A2C2C;
+}
+.notlogincompanynabercolor{
+    pointer-events:none;
+    color: rgb(199, 199, 199);
+}

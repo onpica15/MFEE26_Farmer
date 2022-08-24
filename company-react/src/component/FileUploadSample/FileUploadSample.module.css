@@ -1,0 +1,23 @@
+.previewimg {
+  width: 20%;
+  /* border: 1px solid red; */
+}
+
+.previewimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 5px;
+}
+.click {
+  width: 80px;
+  height: 30px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #3a2c2c;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.8;
+  cursor: pointer;
+  margin-bottom: 10px;
+}

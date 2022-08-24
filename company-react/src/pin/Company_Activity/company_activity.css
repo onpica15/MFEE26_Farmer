@@ -1,0 +1,24 @@
+.activityT_name {
+    font-size: 28px;
+    /* margin: 20px 0; */
+    width: 150px;
+  }
+  .activityT{
+    background-color: #fafafa;
+    padding-top: 60px;
+  }
+  
+  .addactivity{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #3a2c2c;
+    font-size: 20px;
+    color: #3a2c2c ;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    margin-right: 12px;
+    cursor: pointer;
+  }

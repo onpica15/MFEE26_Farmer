@@ -1,0 +1,48 @@
+.productNavUl > li {
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 2px;
+    /* padding-left: 5px; */
+    line-height: 2rem;
+}
+
+.productNavUl {
+    font-family: 'Noto Sans TC', sans-serif;
+    padding-left: 20px;
+}
+
+.productNavUl > li > a {
+    text-decoration: none;
+    color: #3a2c2c;
+}
+
+.nav {
+    width: 200px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.type {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.type > h5 {
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+.type > p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

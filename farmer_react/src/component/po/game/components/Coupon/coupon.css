@@ -1,0 +1,60 @@
+/* 邊框線 */
+.po_couponspace{
+  border: 1px solid #3a2c2c;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+/* 兌換按鈕 */
+.po_buttonColor{
+  background-color: #82CA35;
+  transition: linear 0.2s;
+  border: none;
+}
+
+.coupon:hover{
+    transform:translate(-15px, -10px) scale(1);
+    /* transition: width 2s, height 4s; */
+}
+
+.couponobjfit{
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.po_couponCss {
+    position: relative;
+    background-image: 
+      radial-gradient(circle at 1px 8px, transparent 6px, #ff9e6d 6px, #EFF0EA 0px), 
+      radial-gradient(circle at 280px 8px, transparent 220px, #ff9e6d 6px, #EFF0EA 0px);
+    background-size: 120px 21px;
+    background-position: 0 0, 20px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.po_couponCss_left{
+    position: relative;
+    background-color: #EFF0EA;
+    /* background-image: 
+      radial-gradient(circle at 1px 13px, transparent 6px, #ff9e6d 6px, #EFF0EA 0px), 
+      radial-gradient(circle at 280px 8px, transparent 220px, #ff9e6d 6px, #EFF0EA 0px); */
+    background-size: 490px 21px;
+    background-position: 0 0, 20px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+@media screen and (max-width:375px) {
+    .po_couponCss_left{
+        position: relative;
+        background-color: transparent;
+        background-image: 
+          radial-gradient(circle at 1px 13px, transparent 6px, #ff9e6d 6px, #EFF0EA 0px), 
+          radial-gradient(circle at 280px 8px, transparent 220px, #ff9e6d 6px, #EFF0EA 0px);
+        background-size: 490px 21px;
+        background-position: 0 0, 20px 0;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+}

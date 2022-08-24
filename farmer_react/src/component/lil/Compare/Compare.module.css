@@ -1,0 +1,66 @@
+.tHead{
+    width: 150px;
+    
+}
+.tName{
+    width: 100%;
+    border-bottom: 1px solid #c0baba;
+    text-align: center;
+    height: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.tPhoto{
+    width: 100%;
+    border-bottom: 1px solid #c0baba;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+
+}
+.tHashTsg{
+    width: 100%;
+    border-bottom: 1px solid #c0baba;
+    text-align: center;
+    height: 100px;
+    font-weight: bold;
+    line-height:100px;
+}
+.tInfo{
+    width: 100%;
+    border-bottom: 1px solid #c0baba;
+    text-align: center;
+    height: 300px;
+    font-weight: bold;
+    line-height: 300px;
+
+}
+.page{
+    background-color:#fff;
+    padding:20px 30px;
+    position: relative;
+    color:#3a2c2c;
+}
+.close {
+    width: 35px;
+    height: 35px;
+    color: #ffffff;
+    background-color: #3a2c2c;
+    font-size: 28px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+  }
+
+  .slash {
+    margin: 0 10px;
+  }
+  .title{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+  }

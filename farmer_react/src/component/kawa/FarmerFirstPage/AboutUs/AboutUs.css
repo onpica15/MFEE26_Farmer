@@ -1,0 +1,111 @@
+.aboutUs_section {
+    width: 80%;
+    margin: auto;
+}
+
+.aboutUs_imgwarap_area {
+    position: relative;
+    height: 400px;
+}
+
+.aboutUs_imgwarap {
+    overflow: hidden;
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px rgb(205, 205, 205, 0.5);
+    height: 180px;
+    width: 280px;
+    position: absolute;
+    transform-origin: center;
+}
+
+.aboutUs_imgwarap:nth-child(1) {
+    transform: rotate(-5deg);
+    top: 150px;
+    left: 100px;
+    z-index: 12;
+}
+
+.aboutUs_imgwarap:nth-child(10) {
+    transform: rotate(-30deg);
+}
+
+.aboutUs_imgwarap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.aboutUs_title h2 {
+   display: flex;
+   justify-content: center;
+   font-size: 42px;
+   font-weight: 700;
+}
+
+@media screen and (min-width:768px) {
+    .aboutUs_section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+    
+    .aboutUs_imgwarap_area {
+        width: 50%;
+        position: relative;
+        height: 400px;
+    }
+    
+    .aboutUs_imgwarap {
+        overflow: hidden;
+        border: 10px solid rgb(255, 255, 255);
+        box-shadow: 3px 3px 3px rgb(205, 205, 205, 0.5);
+        height: 300px;
+        width: 400px;
+        position: absolute;
+        transform-origin: center;
+        /* margin-left: 300px; */
+    }
+    
+    .aboutUs_imgwarap:nth-child(1) {
+        transform: rotate(-5deg);
+        top: 150px;
+        left: 200px;
+        z-index: 12;
+    }
+    
+    .aboutUs_imgwarap:nth-child(10) {
+        transform: rotate(-30deg);
+    }
+    
+    .aboutUs_imgwarap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .aboutUs_title h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+        font-weight: 700;
+        /* border: 1px solid red; */
+    }
+
+
+    .aboutUs_text_area {
+        /* border: 1px solid rgb(60, 54, 245); */
+        /* max-width: 500px; */
+        width: 50%;
+
+    }
+    .aboutUs_text_area p{
+        width: 70%;
+        margin: auto;
+        letter-spacing: 2px;
+        line-height: 35px;
+    }
+}
+

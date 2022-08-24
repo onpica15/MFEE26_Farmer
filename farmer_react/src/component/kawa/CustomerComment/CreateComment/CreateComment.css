@@ -1,0 +1,87 @@
+.CreateComment_App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.CreateComment_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  background-image: url(./../../../../../public/images/main_banner_01.jpg);
+  background-repeat: repeat, repeat;
+  background-size: cover;
+}
+
+
+.CreateComment_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* .CreateComment_product {
+  display: flex;
+  align-items: center;
+} */
+.CreateComment_product h1 {
+  font-size: 20px;
+}
+.CreateComment_textarea {
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  min-height: 200px;
+}
+.RatingsubmitBtn {
+  background-color: #292929;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px 0;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.RatingsubmitBtn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.RatingsubmitBtn:hover {
+  background-color: #82CA35;
+}
+
+.CreateComment_closeBtn_BG {
+  background-color: rgb(12, 12, 12);
+min-width: 50px;
+min-height: 50px;
+}
+
+.CreateComment_closeBtn {
+  background-color: rgb(12, 12, 12);
+  padding: 5px;
+  /* fill: white ; */
+  color: rgb(255, 255, 255);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}

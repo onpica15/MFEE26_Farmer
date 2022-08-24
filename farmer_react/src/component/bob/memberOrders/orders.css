@@ -1,0 +1,9 @@
+.boo-objft{
+    object-fit: cover;
+}
+.boo-buttonColor{
+    background-color: #82CA35;
+  }
+.boo-buttonColor:hover{
+    background-color: #466b1f;
+  }

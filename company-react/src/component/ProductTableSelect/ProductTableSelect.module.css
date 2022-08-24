@@ -1,0 +1,9 @@
+.selects {
+  display: flex;
+  max-width: 1320px;
+  margin: 10px auto;
+}
+.select_component {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+}

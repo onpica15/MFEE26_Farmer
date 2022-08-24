@@ -1,0 +1,30 @@
+.boc-objft{
+    object-fit: cover;
+}
+.boc-lineheight{
+    line-height: 1.1rem;
+}
+.boc-multiline-ellipsis { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.boc-multiline-ellipsis-detail { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.boc-switchpx{
+    padding: 0 10%;
+}
+.boc-buttonColor{
+    background-color: #82CA35;
+}
+.boc-buttonColor:hover{
+    background-color: #466b1f;
+  }
+.boc-buttonPadding{
+    padding: 4px 3px 3px 4px;
+}

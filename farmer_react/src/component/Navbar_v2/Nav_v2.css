@@ -1,0 +1,111 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255);
+    position: fixed;
+    z-index: 999;
+    justify-content: space-around;
+    transition: 0.3s;
+    box-shadow: 8px 3px 3px rgba(74, 74, 74, 0.2);
+}
+
+
+
+nav ul li {
+    
+    list-style-type: none;
+    color: blueviolet;
+    padding: 10px 30px;
+    /* align-items: stretch; */
+    /* align-items: center; */
+}
+
+.menu_items {
+    width: 100%;
+    height: 80px;
+    font-size: 1em;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+header .navbar_toggle svg{
+    color: #333;
+}
+
+.nav_icons svg {
+    color: #333;
+    padding: 5px;
+    /* border: 1px solid red; */
+}
+
+
+
+.main_logo {
+    width: 280px;
+    padding: 0 10px;
+    fill: #333;
+    /* background-color: #fff; */
+}
+
+
+.cart_number{
+border-left: 1px solid #333;
+color: #E5C391;
+}
+
+.nav_active {
+    background-color: #333;
+    color: #333;
+    box-shadow: 8px 3px 3px rgba(74, 74, 74, 0.2);
+
+}
+
+.main_logo_active {
+    fill: #333;
+    /* background-color: rgb(123, 44, 44); */
+}
+
+
+.menu_items_active {
+    color: #333
+}
+
+
+.nav_icons_active svg{
+    color: #333;
+}
+
+.cart_number_active {
+    color: #E5C391;
+    border-left: 1px solid #333;
+}
+
+.loginout_btn {
+    color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+}
+
+
+
+.loginout_btn_active {
+    background-color: rgb(166, 1, 1);
+    /* border-radius: 20px; */
+    border: 1px solid red;
+    color:  red;
+}
+
+
+/* 指到選單顯示下底線 */
+header  .menu_items:hover {
+    color: #333333;
+    border-bottom: 1px solid #333;
+}

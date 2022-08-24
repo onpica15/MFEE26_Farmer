@@ -1,0 +1,27 @@
+.ContactUs_section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.ContactUs_section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.ContactUs_section h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactUs_input_area {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactUs_input_area .sendButton {
+    background-color: rgb(106, 189, 83);
+    border: 0.5px solid gray;
+    color: aliceblue;
+    width: 100px;
+}

@@ -1,0 +1,104 @@
+/* 通用 */
+.cursor_pointer{
+    cursor: pointer;
+}
+
+/* 購物車步驟 */
+.cart_step_block {
+    background-color: #b68766;
+    width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+}
+.cart_step {
+    font-weight: 700;
+    color: #b68766;
+}
+.cart_step_fontsize {
+    font-size: 8px;
+}
+.cart_step_opacity {
+    opacity: 0.3;
+}
+
+
+.cart_border_bottom {
+    border-bottom: 1px solid #bcbcbc;
+}
+.cart_border_left {
+    border-left: 1px solid #eeeeee;
+}
+.cart_border_right {
+    border-right: 1px solid #eeeeee;
+}
+
+.cart_button_borderradius{
+    border-radius: 30px;
+}
+.cart_button_color_green{
+    background-color: #82ca35;
+}
+.cart_button_color_green_cerditcard{
+    background-color: #82ca35;
+}
+.cart_button_color_green:hover{
+    background-color: #82ca35;
+}
+.cart_button_color_brown{
+    background-color: #3a2c2c;
+}
+.cart_button_color_brown:hover{
+    background-color: #3a2c2c;
+}
+.cart_button_hover_change{
+    color: white;
+} 
+ .cart_button_hover_change:hover{
+    color: black;
+}
+
+
+
+/* 購物車清單 */
+#cart_discount_select {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #e8e8e8 inset;
+
+    padding: 8px;
+}
+.cart_product_img {
+    width: 200px;
+}
+.cart_input_length{
+    width: 150px;
+}
+@media screen and (max-width: 760px) {
+    .cart_product_img {
+        width: 100px;
+    }
+    .cart_input_length{
+    width: 30px;
+    height: 25px;
+}
+}
+
+
+/* 購物車付款 */
+.cart_payment_border_bottom {
+    border-bottom: 2px solid rgb(128, 128, 128);
+}
+.cart_payment_border_top {
+    border-top: 1px solid rgb(196, 196, 196);
+}
+
+
+.cart_creditcard_fontsize{
+    font-size: 12px;
+}
+
+
+.cart_table_success_gray {
+    background-color: #dddddd;
+}

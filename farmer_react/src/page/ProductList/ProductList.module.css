@@ -1,0 +1,98 @@
+.page {
+    background-color: #eff0ea;
+    position: relative;
+}
+.container {
+    max-width: 1320px;
+    margin: auto;
+    background-color: #fafafa;
+    padding: 50px 20px;
+}
+.hash_tag {
+    margin: 0 auto 50px;
+}
+.card {
+    margin: 0 auto 50px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.slick {
+    margin: 10px;
+}
+.sidebar {
+    position: sticky;
+    top: 50px;
+    /* flex-grow: 1; */
+}
+/* .row {
+    flex-wrap: wrap;
+}
+.main {
+    flex-grow: 999;
+} */
+
+
+.comparebtn{
+     width: 50px;
+     height: 50px;
+     background-color: #5887C3;
+     color: #fff;
+     position: fixed;
+     right: 0;
+     bottom: 100px;
+     padding: 10px;
+     border-radius: 2px;
+     align-items: center;
+     display:flex;
+     justify-content: center;
+     z-index: 10;
+}
+
+.ad_wrap {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.ad_hidden{
+    transform: translateX(-300px);
+    transition: all 1s ease-out ;
+}
+
+.ad_move{
+    transform: translateX(0);
+}
+.fixed{
+    position: fixed;
+    top: 150px;
+}
+.compareNum{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fa4747;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    /* text-align: center; */
+    /* line-height: 20px; */
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swal2-styled.swal2-confirm{
+    /* background-color:#7066e0 */
+    background-color:#82CA35;
+    margin:0
+  }
+  
+.swal2-styled.swal2-confirm:focus{
+    box-shadow: 0 0 0 3px #82ca357f;
+  }

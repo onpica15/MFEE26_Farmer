@@ -1,0 +1,30 @@
+.bore-objft{
+    object-fit: cover;
+}
+.bore-lineheight{
+    line-height: 1.1rem;
+}
+.bore-multiline-ellipsis { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.bore-multiline-ellipsis-details { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.bore-switchpx{
+    padding: 0 10%;
+}
+.bore-buttonColor{
+    background-color: #82CA35;
+  }
+.bore-buttonColor:hover{
+    background-color: #466B1F;
+  }
+.bore-buttonPadding{
+    padding: 4px 3px 3px 4px;
+}

@@ -1,0 +1,27 @@
+.menuincreate{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(88, 135, 195);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;    
+}
+
+.rightsidebutton{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(88, 135, 195);
+    border: 0;
+}
+
+.rightsidebutton img{
+    width: 35px;
+    height: 35px;
+}
